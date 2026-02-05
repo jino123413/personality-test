@@ -261,6 +261,15 @@ export const moneyPersonalityTest: TestData = {
         '비상금이 충분하다면, 초과분은 물가상승률 이상의 수익을 낼 수 있는 상품에 넣어보세요.',
       ],
       color: '#1565C0',
+      detailedAnalysis: {
+        bestMatch: '성장추구',
+        bestMatchDescription:
+          '안정적인 기반 위에 성장 전략을 더하면 무적의 조합! 당신이 든든하게 지키고, 성장추구형이 수익을 올려주는 환상의 재정 파트너예요.',
+        worstMatch: '경험중시',
+        worstMatchDescription:
+          '"그 돈 저축하면 이자가 얼만데!" vs "인생은 지금이야!" 저축과 경험 소비 사이에서 끝없는 평행선을 달리게 될 수 있어요.',
+        celebrity: '김생민',
+      },
     },
     // 성장추구
     {
@@ -281,6 +290,15 @@ export const moneyPersonalityTest: TestData = {
         '투자 일지를 작성하면 감정적 매매를 줄이고, 나만의 투자 원칙을 세우는 데 큰 도움이 돼요.',
       ],
       color: '#E65100',
+      detailedAnalysis: {
+        bestMatch: '안전제일',
+        bestMatchDescription:
+          '공격적인 투자에 안전장치를 달아주는 완벽한 브레이크 역할! 안전제일형이 리스크를 관리해주면 당신은 더 과감하게 도전할 수 있어요.',
+        worstMatch: '자유영혼',
+        worstMatchDescription:
+          '"수익률 극대화가 중요해!" vs "돈보다 자유가 먼저지~" 수익을 향한 열정과 자유를 향한 갈망이 끊임없이 부딪힐 수 있어요.',
+        celebrity: '존 리',
+      },
     },
     // 경험중시
     {
@@ -301,6 +319,15 @@ export const moneyPersonalityTest: TestData = {
         '경험을 기록하는 습관을 들이면 같은 돈으로도 더 풍성한 만족감을 느낄 수 있어요. 사진 일기 추천!',
       ],
       color: '#7C4DFF',
+      detailedAnalysis: {
+        bestMatch: '자유영혼',
+        bestMatchDescription:
+          '함께 경험하고 자유롭게 즐기는 최고의 동반자! 서로 새로운 걸 발견하고 공유하면서 인생을 두 배로 풍성하게 만들어줘요.',
+        worstMatch: '안전제일',
+        worstMatchDescription:
+          '"이번 주말 팝업스토어 가자!" vs "그 돈이면 적금 넣어..." 소비에 대한 근본적인 관점 차이로 대화가 평행선일 수 있어요.',
+        celebrity: '곽튜브',
+      },
     },
     // 자유영혼
     {
@@ -321,6 +348,15 @@ export const moneyPersonalityTest: TestData = {
         '패시브 인컴(배당, 임대 수익 등)을 조금씩 쌓아가면 자유까지의 거리가 확 줄어들어요.',
       ],
       color: '#00BCD4',
+      detailedAnalysis: {
+        bestMatch: '경험중시',
+        bestMatchDescription:
+          '삶을 즐기는 방식이 통하는 소울메이트! 경험중시형이 재미있는 곳을 찾아오면 당신은 자유롭게 함께 떠나는 최고의 파트너예요.',
+        worstMatch: '성장추구',
+        worstMatchDescription:
+          '"자유가 최고야!" vs "그래도 수익률은 챙겨야지!" 자유로운 삶의 방식과 수익 극대화 사이에서 가치관 충돌이 올 수 있어요.',
+        celebrity: '백종원',
+      },
     },
   ],
 };

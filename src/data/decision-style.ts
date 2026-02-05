@@ -204,6 +204,15 @@ export const decisionStyleTest: TestData = {
         '가끔은 주변 사람의 의견을 듣는 것도 시야를 넓혀줄 수 있어요',
       ],
       color: '#FFD600',
+      detailedAnalysis: {
+        bestMatch: '실용파',
+        bestMatchDescription:
+          '직감의 스피드에 실용파의 실행력이 더해지면 무적! 생각하기도 전에 이미 결과를 만들어내는 드림팀이에요.',
+        worstMatch: '분석파',
+        worstMatchDescription:
+          '당신이 "가자!" 할 때 분석파는 아직 엑셀 켜는 중... 즉흥과 계획의 끝없는 평행선이에요.',
+        celebrity: '백종원',
+      },
     },
     {
       type: 'analytical',
@@ -223,6 +232,15 @@ export const decisionStyleTest: TestData = {
         '80% 확신이 들면 나머지 20%는 경험으로 채워도 충분해요',
       ],
       color: '#1E88E5',
+      detailedAnalysis: {
+        bestMatch: '감성파',
+        bestMatchDescription:
+          '데이터에 감성을 한 스푼 더하면 완벽한 밸런스! 논리와 감정이 만나 누구나 납득하는 최고의 결정이 탄생해요.',
+        worstMatch: '직감파',
+        worstMatchDescription:
+          '당신이 분석표 3장째 만들 때 직감파는 이미 결제 완료... 데이터 vs 감의 영원한 전쟁이에요.',
+        celebrity: '유재석',
+      },
     },
     {
       type: 'emotional',
@@ -242,6 +260,15 @@ export const decisionStyleTest: TestData = {
         '때로는 숫자와 조건도 함께 고려하면 더 만족스러운 결과가 나와요',
       ],
       color: '#EC407A',
+      detailedAnalysis: {
+        bestMatch: '분석파',
+        bestMatchDescription:
+          '감성파의 따뜻한 마음에 분석파의 냉철한 논리가 더해지면 서로의 부족한 점을 완벽하게 채워주는 환상의 조합이에요.',
+        worstMatch: '실용파',
+        worstMatchDescription:
+          '당신이 "기분이 중요해!"라고 할 때 실용파는 "가성비가 중요해!"라고 맞받아치는 평행 우주 커플이에요.',
+        celebrity: '아이유',
+      },
     },
     {
       type: 'practical',
@@ -261,6 +288,15 @@ export const decisionStyleTest: TestData = {
         '완벽한 가성비보다 "충분히 좋은" 선택도 훌륭한 결정이에요',
       ],
       color: '#546E7A',
+      detailedAnalysis: {
+        bestMatch: '직감파',
+        bestMatchDescription:
+          '실용파의 효율에 직감파의 추진력이 만나면 고민 없이 최적의 결과를 뚝딱! 속도와 가성비를 동시에 잡는 최강 콤비예요.',
+        worstMatch: '감성파',
+        worstMatchDescription:
+          '당신이 가성비 계산기를 두드릴 때 감성파는 "그래도 이게 더 예쁘잖아..."라며 감정에 호소하는 끝없는 줄다리기예요.',
+        celebrity: '김미경',
+      },
     },
   ],
 };

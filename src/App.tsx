@@ -28,6 +28,7 @@ const App: React.FC = () => {
   const [currentTest, setCurrentTest] = useState<TestData | null>(null);
   const [currentResult, setCurrentResult] = useState<TestResult | null>(null);
   const [lastResults, setLastResults] = useState<Record<string, string>>(loadLastResults);
+  const [unlockedAnalysis, setUnlockedAnalysis] = useState<Set<string>>(new Set());
   const { loading: adLoading, showInterstitialAd } = useInterstitialAd();
 
   useEffect(() => {
@@ -76,6 +77,15 @@ const App: React.FC = () => {
     });
   }, [showInterstitialAd]);
 
+  const handleUnlockAnalysis = useCallback(() => {
+    if (!currentTest) return;
+    showInterstitialAd({
+      onDismiss: () => {
+        setUnlockedAnalysis((prev) => new Set(prev).add(currentTest.id));
+      },
+    });
+  }, [showInterstitialAd, currentTest]);
+
   const handleBackToHome = useCallback(() => {
     setCurrentTest(null);
     setCurrentResult(null);
@@ -104,7 +114,9 @@ const App: React.FC = () => {
           result={currentResult}
           onRetakeTest={handleRetakeTest}
           onOtherTest={handleOtherTest}
+          onUnlockAnalysis={handleUnlockAnalysis}
           adLoading={adLoading}
+          analysisUnlocked={unlockedAnalysis.has(currentTest.id)}
         />
       )}
     </div>

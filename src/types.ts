@@ -9,6 +9,14 @@ export interface TestQuestion {
   options: TestOption[];
 }
 
+export interface DetailedAnalysis {
+  bestMatch: string;
+  bestMatchDescription: string;
+  worstMatch: string;
+  worstMatchDescription: string;
+  celebrity: string;
+}
+
 export interface TestResult {
   type: string;
   title: string;
@@ -17,6 +25,7 @@ export interface TestResult {
   traits: string[];
   tips: string[];
   color: string;
+  detailedAnalysis: DetailedAnalysis;
 }
 
 export interface TestData {

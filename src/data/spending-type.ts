@@ -239,6 +239,15 @@ export const spendingTypeTest: TestData = {
         '가끔은 경험에 투자하는 것도 좋아요. 여행이나 자기계발 강의가 인생을 풍요롭게 만들어줘요.',
       ],
       color: '#4CAF50',
+      detailedAnalysis: {
+        bestMatch: '계획가',
+        bestMatchDescription:
+          '절약왕과 계획가가 만나면 가계부 앱 두 개 깔린 커플 탄생! 둘 다 아끼는 걸 좋아하니 통장 잔고가 쑥쑥 올라가요.',
+        worstMatch: '플렉서',
+        worstMatchDescription:
+          '절약왕이 쿠폰 모으는 동안 플렉서는 이미 카드 긁고 옴... 소비 철학이 정반대라 서로 답답할 수 있어요.',
+        celebrity: '김생민',
+      },
     },
     {
       type: 'planner',
@@ -258,6 +267,15 @@ export const spendingTypeTest: TestData = {
         '비상 상황을 위한 유동 자금을 별도로 확보해 두면 계획에 없던 지출에도 여유 있게 대처할 수 있어요.',
       ],
       color: '#2196F3',
+      detailedAnalysis: {
+        bestMatch: '투자러',
+        bestMatchDescription:
+          '계획가의 철저한 분석 + 투자러의 실행력 = 최강 재테크 콤비! 엑셀로 투자 수익률 관리하는 찰떡 조합이에요.',
+        worstMatch: '플렉서',
+        worstMatchDescription:
+          '계획가가 짜둔 월 예산을 플렉서가 하루 만에 날려버릴 수 있어요. 계획 vs 즉흥의 영원한 평행선...',
+        celebrity: '유퀴즈 나영석 PD',
+      },
     },
     {
       type: 'flexer',
@@ -277,6 +295,15 @@ export const spendingTypeTest: TestData = {
         '소비 기록을 한 달만 써보면 의외로 줄일 수 있는 부분이 많이 보여요. 가계부 앱 하나 깔아보세요!',
       ],
       color: '#FF4081',
+      detailedAnalysis: {
+        bestMatch: '플렉서',
+        bestMatchDescription:
+          '플렉서끼리 만나면 서로의 지름을 200% 이해해주는 최고의 쇼핑 메이트! 같이 다니면 카드값은 두 배지만 행복도 두 배예요.',
+        worstMatch: '절약왕',
+        worstMatchDescription:
+          '플렉서가 "이거 사야 해!"라고 할 때 절약왕은 "그 돈이면 적금을..."이라고 해요. 대화가 안 통하는 순간이 자주 옵니다.',
+        celebrity: '지드래곤',
+      },
     },
     {
       type: 'investor',
@@ -296,6 +323,15 @@ export const spendingTypeTest: TestData = {
         '투자 수익률뿐 아니라 건강, 인간관계에도 투자하면 더 풍요로운 인생을 만들 수 있어요.',
       ],
       color: '#FF9800',
+      detailedAnalysis: {
+        bestMatch: '계획가',
+        bestMatchDescription:
+          '투자러의 대담한 투자 감각에 계획가의 체계적인 리스크 관리가 더해지면? 주식 계좌 수익률이 미소 짓는 드림팀이에요.',
+        worstMatch: '절약왕',
+        worstMatchDescription:
+          '투자러가 "이 종목 올라갈 거야!"라고 하면 절약왕은 "그냥 적금 넣어..."라고 해요. 리스크를 대하는 태도가 너무 달라요.',
+        celebrity: '워렌 버핏',
+      },
     },
   ],
 };
